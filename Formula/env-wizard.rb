@@ -1,7 +1,6 @@
 class EnvWizard < Formula
   desc "Interactive .env filler with repo-aware AI hints (cloud or local)"
   homepage "https://github.com/alphonse-terrier/env-wizard"
-  version "0.1.0"
   license "MIT"
 
   on_macos do
