@@ -5,19 +5,19 @@ class EnvWizard < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/alphonse-terrier/env-wizard/releases/download/v0.2.0/env-wizard-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f04324da695e13c94955491d27100123dd39a33fe2c69605193442b6d8a478ee"
+      url "https://github.com/alphonse-terrier/env-wizard/releases/download/v0.3.0/env-wizard-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "b3617cb06c2f00e51f5b7898fa999753101384205988064d1cde04e31fe64ced"
     end
     on_intel do
-      url "https://github.com/alphonse-terrier/env-wizard/releases/download/v0.2.0/env-wizard-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c79ae354021bde1c2678e94ed4f10b1d7d5698f9f20f989bcfc9c7272d423805"
+      url "https://github.com/alphonse-terrier/env-wizard/releases/download/v0.3.0/env-wizard-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "5aeb047143152db6310e50fae4a75b3b6cb40d659b6e0cf0a91d504bd00f1cca"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/alphonse-terrier/env-wizard/releases/download/v0.2.0/env-wizard-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "78b949047a1ac9af5d00fbbf765a01f95105b6fc60301a7325828f537179d042"
+      url "https://github.com/alphonse-terrier/env-wizard/releases/download/v0.3.0/env-wizard-v0.3.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "b0f39cc8ebb30234a3a0276ae3091361669ba1b91d93f70873ef00131d568a37"
     end
   end
 
